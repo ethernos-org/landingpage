@@ -13,7 +13,7 @@ body {
 }
 
 .Welcome {
-    background-image: linear-gradient(120deg, #cf54ddb9 0%, #ad3243cc 100%), url(/img/art.jpg);
+    background-image: linear-gradient(120deg, #cf54ddb9 0%, #ad3243cc 100%), url(img/art.jpg);
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
