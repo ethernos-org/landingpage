@@ -13,7 +13,7 @@ body {
 }
 
 .Welcome {
-    background-image: linear-gradient(120deg, #cf54ddb9 0%, #ad3243cc 100%), url(img/art.jpg);
+    background-image: linear-gradient(to top, #48c5ef9c 0%, #5370da8e 100%), url(img/port.jpg);
     width: 100%;
     height: 650px;
     background-repeat: no-repeat;
@@ -35,11 +35,13 @@ body {
 
 .Hello h1 {
     font-size: 60px;
+    
 }
 
 .Hello p {
     font-size: 25px;
     margin-bottom: 20px;
+    width: 60%;
 }
 
 .Hello a {
@@ -59,20 +61,28 @@ body {
 }
 
 .desc {
-    margin-top: 7%;
     display: block;
-    align-items: center;
+    width: 50%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .boton1 {
-    display: inline-flex;
+    display: block;
     text-decoration: none;
-    background-image: linear-gradient(120deg, #cf54ddb9 0%, #ad3243cc 100%);
+    background-image: linear-gradient(to top, #48c5ef9c 0%, #5370da8e 100%);
     padding: 12px 15px;
     border-radius: 8px;
     color: aliceblue;
     margin-top: 30px;
-    margin-left: 30%;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .titulo {
@@ -91,18 +101,18 @@ body {
 }
 
 .waves img {
-    width: 48%;
-    padding-left: 10%;
+    width: 50%;
+    height: 70%;
+    min-width: 50%;
+    padding-left: 7%;
+    align-self: center;
+    
 }
 
 .waves a {
     align-content: center;
 }
 
-.desc {
-    padding-left: 5%;
-    margin-top: 7%;
-}
 
 p {
     text-align: justify;
@@ -123,12 +133,18 @@ p {
 }
 
 .informacion {
-    background: #fa28a3cc;
-    color: aliceblue;
+    background: #206ee4cc;
+    color: rgb(240, 243, 255);
     margin-top: 20px;
     padding-top: 30px;
     padding-bottom: 30px;
     align-items: center;
+}
+
+.contenedor {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul {
@@ -176,7 +192,7 @@ ul {
 .final {
     width: 100%;
     height: 50px;
-    background-color:  rgb(206, 77, 238);
+    background-color:  #42A5F5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;      
 }
@@ -202,9 +218,10 @@ footer a {
     }
 
     img {
-        width: 40%;
+        min-width: auto;
         margin-left: auto;
         margin-right: auto;
+        min-height: auto;
     }  
 
     
