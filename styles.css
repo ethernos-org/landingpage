@@ -169,7 +169,7 @@ ul {
 }
 
 .C {
-    width: 100%;
+    width: auto;
     background-image: linear-gradient(to top, #48c5ef9c 0%, #5370da8e 100%);
     text-align: center;
 }
